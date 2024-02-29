@@ -35,33 +35,33 @@ button {
 }
 
 .cta-green {
-  background: #00ffad;
-  color: #192440;
+  background: #67aa97;
+  color: #00061b;
 }
 
 .cta-green:hover {
   color: #ffffff;
-  background: #00e69c;
+  background: #67aa97;
 }
 
 .cta-blue {
-  background: #192440;
+  background: #00061b;
   color: #ffffff;
 }
 
 .cta-blue:hover {
   color: #ffffff;
-  background: #121a2e;
+  background: #00061b;
 }
 
 .cta-ghost {
-  border: 2px solid #192440 !important;
+  border: 2px solid #00061b !important;
   color: #192440;
 }
 
 .cta-ghost:hover {
   color: #ffffff;
-  background: #121a2e;
+  background: #00061b;
 }
 
 #banner {
@@ -84,11 +84,13 @@ button {
 }
 
 #feature-first {
-  background: linear-gradient(168deg, #ffffff 55%, #00ffad 0);
+  background: linear-gradient(168deg, #ffffff 55%, #67aa97 0);
+  color: #00061b;
 }
 
 #feature-last {
-  background: #00ffad;
+  background: #67aa97;
+  color: #00061b;
 }
 
 /********** price table **********/
@@ -98,7 +100,7 @@ button {
 }
 
 #price-table__premium {
-  background: #192440;
+  background: #00061b;
   color: #ffffff;
 }
 
@@ -116,19 +118,19 @@ button {
 }
 
 #contact form {
-  color: #00ffad;
+  color: #67aa97;
 }
 
 #contact form input,
 #contact form textarea {
   background: transparent;
-  border: 1px solid #00ffad;
+  border: 1px solid #67aa97;
   color: #ffffff;
 }
 
 /********** copyright **********/
 #copyright {
-  background: #192440;
+  background: #00061b;
   padding: 2rem 3rem;
 }
 
@@ -136,7 +138,7 @@ button {
   width: 40px;
   height: 40px;
   border-radius: 99%;
-  background: #192440;
+  background: #00061b;
   transition: 0.4s ease;
 }
 
@@ -147,11 +149,11 @@ button {
 }
 
 #social-media a:hover {
-  background: #00ffad;
+  background: #bb9017;
 }
 
 #social-media a:hover i {
-  color: #192440;
+  color: #00061b;
 }
 
 /********** RWD **********/
@@ -187,7 +189,7 @@ button {
 .statistics-number {
   font-size: 5rem;
   font-weight: 1000;
-  color: #553fdb;
+  color: #00061b;
 }
 
 .statistics-text .source {
@@ -195,9 +197,41 @@ button {
   font-size: 1rem;
 }
 
-.brand-green {
-  color: #00ffad;
+.brand-gold {
+  color: #bb9017;
 }
-.blue-bg {
-  background: red;
+
+#contact a {
+  color: #bb9017;
+}
+
+.benefits-icon {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.benefits-icon i {
+  width: 140px;
+  height: 140px;
+  border-radius: 99%;
+  transition: 0.4s ease;
+  font-size: 4rem;
+  line-height: 140px;
+}
+
+.benefits-icon .icon-gold i {
+  color: #00061b;
+}
+
+.icon-gold i {
+  background: #bb9017;
+}
+
+.icon-cyan i {
+  background: #67aa97;
+}
+
+#copyright a {
+  color: #ffffff;
 }

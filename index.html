@@ -14,7 +14,10 @@
     <!-- bootstrap.min.css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- font-awesome -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script
+      src="https://kit.fontawesome.com/d3286497f5.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- AOS -->
     <link rel="stylesheet" href="css/aos.css" />
@@ -25,16 +28,13 @@
     <div
       class="jumbotron jumbotron-fluid"
       id="banner"
-      style="background-image: url(img/banner-bk.jpg)"
+      style="background-image: url(img/banner-bk2.jpg)"
     >
       <div class="container text-center text-md-left">
         <header>
           <div class="row justify-content-between">
             <div class="col-2">
-              <img src="img/logo-truvento3.png" alt="logo" />
-            </div>
-            <div class="col-6 align-self-center text-right">
-              <a href="#" class="text-white lead">Demo vereinbaren</a>
+              <img src="img/logo-truvento.png" alt="logo" />
             </div>
           </div>
         </header>
@@ -61,7 +61,7 @@
           zu erreichen.
         </p>
         <a
-          href="#"
+          href="#services"
           data-aos="fade"
           data-aos-easing="linear"
           data-aos-duration="1000"
@@ -72,7 +72,7 @@
       </div>
     </div>
     <!-- three-blcok -->
-    <div class="container my-5 py-2">
+    <div class="container my-5 py-2" id="services">
       <h2 class="text-center font-weight-bold my-5">
         Entdecken. Innovieren. Patentieren.
       </h2>
@@ -85,8 +85,8 @@
           class="col-md-4 text-center"
         >
           <img
-            src="img/smart-protect-3.jpg"
-            alt="Smart Search"
+            src="img/patent-search.jpg"
+            alt="Intelligente Patentrecherche"
             class="mx-auto"
           />
           <h4>Intelligente Patentrecherche</h4>
@@ -104,8 +104,8 @@
           class="col-md-4 text-center"
         >
           <img
-            src="img/smart-protect-2.jpg"
-            alt="Phishing Detect"
+            src="img/optimize-and-customize.jpg"
+            alt="Optimierung und Anpassung"
             class="mx-auto"
           />
           <h4>Optimierung und Anpassung</h4>
@@ -121,7 +121,11 @@
           data-aos-once="true"
           class="col-md-4 text-center"
         >
-          <img src="img/smart-protect-1.jpg" alt="Smart Scan" class="mx-auto" />
+          <img
+            src="img/patent-ai-generation.jpg"
+            alt="KI-gestützte Patentformulierung"
+            class="mx-auto"
+          />
           <h4>KI-gestützte Patentformulierung</h4>
           <p>
             Automatisierte Erstellung von Patenttexten aus dem Anspruchssatz,
@@ -192,8 +196,10 @@
               Erstellung von Patenttexten, was den Prozess der Patentanmeldung
               beschleunigt und vereinfacht.
             </p>
-            <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue"
-              >Demo vereinbaren</a
+            <a
+              href="#contact"
+              class="btn my-4 font-weight-bold atlas-cta cta-blue"
+              >Termin vereinbaren</a
             >
           </div>
           <div
@@ -215,7 +221,7 @@
     <!-- five-block -->
     <div class="container my-5 py-2">
       <h2 class="text-center font-weight-bold my-5">
-        <span class="brand-green">TRUVENTO.</span> Vorteile für Ihre
+        <span class="brand-gold">TRUVENTO.</span> Vorteile für Ihre
         Innovationen.
       </h2>
       <div class="row">
@@ -226,11 +232,10 @@
           data-aos-once="true"
           class="col-md-4 text-center"
         >
-          <img
-            src="img/smart-protect-3.jpg"
-            alt="Smart Search"
-            class="mx-auto"
-          />
+          <div class="benefits-icon icon icon-gold">
+            <i class="fa fa-recycle fa-5x" aria-hidden="true"></i>
+          </div>
+
           <h4>Effizienz und Ressourceneinsparung</h4>
           <p>
             Unser Tool automatisiert die Recherche und Patenttexterstellung,
@@ -247,11 +252,9 @@
           data-aos-once="true"
           class="col-md-4 text-center"
         >
-          <img
-            src="img/smart-protect-2.jpg"
-            alt="Phishing Detect"
-            class="mx-auto"
-          />
+          <div class="benefits-icon icon icon-cyan">
+            <i class="fas fa-money-bill-wave fa-5x" aria-hidden="true"></i>
+          </div>
           <h4>Kosteneinsparungen</h4>
           <p>
             Die Unterstützung durch unsere fortschrittliche KI-Technologie kann
@@ -267,7 +270,9 @@
           data-aos-once="true"
           class="col-md-4 text-center"
         >
-          <img src="img/smart-protect-1.jpg" alt="Smart Scan" class="mx-auto" />
+          <div class="benefits-icon icon icon-gold">
+            <i class="fas fa-lightbulb fa-5x" aria-hidden="true"></i>
+          </div>
           <h4>Innovationsförderung</h4>
           <p>
             Mit unserem Ansatz können Unternehmen ihr intellektuelles Eigentum
@@ -286,11 +291,9 @@
           data-aos-once="true"
           class="col-md-4 text-center"
         >
-          <img
-            src="img/smart-protect-3.jpg"
-            alt="Smart Search"
-            class="mx-auto"
-          />
+          <div class="benefits-icon icon icon-gold">
+            <i class="fas fa-chart-line fa-5x" aria-hidden="true"></i>
+          </div>
           <h4>Laufendes Monitoring des State of the Art</h4>
           <p>
             Unser System gewährleistet, dass Sie immer auf dem neuesten Stand
@@ -306,11 +309,9 @@
           data-aos-once="true"
           class="col-md-4 text-center"
         >
-          <img
-            src="img/smart-protect-2.jpg"
-            alt="Phishing Detect"
-            class="mx-auto"
-          />
+          <div class="benefits-icon icon icon-cyan">
+            <i class="fas fa-cogs fa-5x" aria-hidden="true"></i>
+          </div>
           <h4>Optimierung und Anpassung</h4>
           <p>
             Unsere KI identifiziert Ähnlichkeiten zu bestehenden Patenten und
@@ -356,7 +357,10 @@
             <p>Machine Learning und Cloud Engineer</p>
 
             <div id="social-media">
-              <a href="#" class="d-inline-block text-center ml-2">
+              <a
+                href="https://www.linkedin.com/in/dennis-breuer-cs/"
+                class="d-inline-block text-center ml-2"
+              >
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </div>
@@ -378,7 +382,10 @@
             <p>Machine Learning Expertin und Software Architektin</p>
 
             <div id="social-media">
-              <a href="#" class="d-inline-block text-center ml-2">
+              <a
+                href="https://www.linkedin.com/in/lulienne-schiefelbein/"
+                class="d-inline-block text-center ml-2"
+              >
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </div>
@@ -394,10 +401,13 @@
             <img src="./img/clarissa-regler.jpeg" alt="Dennis Breuer" />
             <h4>Patentanwältin</h4>
             <h3>Clarissa Regler</h3>
-            <p>Expertin Patentwesen</p>
+            <p>Expertin im Patentwesen</p>
 
             <div id="social-media">
-              <a href="#" class="d-inline-block text-center ml-2">
+              <a
+                href="https://www.linkedin.com/in/clarissa-johanna-regler/"
+                class="d-inline-block text-center ml-2"
+              >
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </div>
@@ -418,7 +428,10 @@
             </p>
 
             <div id="social-media">
-              <a href="#" class="d-inline-block text-center ml-2">
+              <a
+                href="https://www.linkedin.com/in/joachim-warschat-0aa058151/"
+                class="d-inline-block text-center ml-2"
+              >
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </div>
@@ -441,7 +454,7 @@
     <div
       class="jumbotron jumbotron-fluid"
       id="contact"
-      style="background-image: url(img/contact-bk.jpg)"
+      style="background-image: url(img/contact-bk2.jpg)"
     >
       <div class="container my-6">
         <div class="row justify-content-between">
@@ -456,23 +469,21 @@
 
             <ul class="list-unstyled">
               <li>
-                <strong>E-Mail:</strong>
-                <a href="mailto:warschat@unternehmensberatungki.de"
-                  >warschat@unternehmensberatungki.de</a
+                <a
+                  href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#119;&#097;&#114;&#115;&#099;&#104;&#097;&#116;&#064;&#117;&#110;&#116;&#101;&#114;&#110;&#101;&#104;&#109;&#101;&#110;&#115;&#098;&#101;&#114;&#097;&#116;&#117;&#110;&#103;&#107;&#105;&#046;&#100;&#101;"
+                >
+                  <i class="fa fa-envelope" aria-hidden="true"></i> E-Mail</a
                 >
               </li>
-              <li>
-                <strong>Telefon:</strong>
-                <a href="tel:+491727118444">+49 172/7118444</a>
-              </li>
             </ul>
+
             <p>
               Wir freuen uns darauf, mit Ihnen zusammenzuarbeiten und Ihre
               spezifischen Anforderungen zu besprechen, um maßgeschneiderte
               Lösungen zu finden, die Ihren Erfolg vorantreiben.
             </p>
           </div>
-          <div class="col-md-3 text-center py-4 mt-5">
+          <div class="col-md-3 text-center">
             <img src="./img/joachim-warschat.jpeg" alt="Joachim Warschat" />
             <p class="text-white">Prof. Joachim Warschat</p>
           </div>
@@ -487,7 +498,8 @@
           <div
             class="col-md-6 text-white align-self-center text-center text-md-left my-2"
           >
-            Copyright © 2024 TRUVENTO
+            Copyright © 2024 TRUVENTO | <a href="#">Impressum</a> |
+            <a href="#">Datenschutz</a>
           </div>
 
           <div
