@@ -44,6 +44,20 @@ button {
   background: #67aa97;
 }
 
+.cta-gold {
+  background: #bb9017;
+  color: #00061b;
+}
+
+.cta-gold:hover {
+  color: #ffffff;
+  background: #bb9017;
+}
+
+.cta-contact {
+  margin-left: 15px;
+}
+
 .cta-blue {
   background: #00061b;
   color: #ffffff;
