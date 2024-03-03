@@ -232,9 +232,6 @@ button {
   transition: 0.4s ease;
   font-size: 4rem;
   line-height: 140px;
-}
-
-.benefits-icon .icon-gold i {
   color: #00061b;
 }
 
