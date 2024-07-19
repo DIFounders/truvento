@@ -182,7 +182,7 @@ button {
   object-fit: cover;
 }
 
-#about-us h4 {
+#about-us h4, #about-us h5 {
   margin-top: 1rem;
   color: #b3b3b3;
 }
