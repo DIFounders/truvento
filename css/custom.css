@@ -102,6 +102,12 @@ button {
   color: #00061b;
 }
 
+#feature-center {
+  background: #67aa97;
+  color: #00061b;
+  padding-top: 0px;
+}
+
 #feature-last {
   background: #67aa97;
   color: #00061b;
@@ -182,7 +188,8 @@ button {
   object-fit: cover;
 }
 
-#about-us h4, #about-us h5 {
+#about-us h4,
+#about-us h5 {
   margin-top: 1rem;
   color: #b3b3b3;
 }
