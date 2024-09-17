@@ -188,6 +188,8 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start; /* Sorgt dafür, dass die Spalten oben ausgerichtet sind */
+  margin: 0;
+  padding: 10px 0;
 }
 
 #about-us .col-md-3 {
@@ -226,7 +228,7 @@ button {
 }
 
 #about-us .social-media {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
