@@ -206,6 +206,7 @@ button {
   width: 100%; /* Bild passt sich an die Breite des Containers an */
   max-width: 150px; /* Begrenzung der Maximalgröße */
   height: auto; /* Höhe passt sich proportional an */
+  max-height: 150px;
 }
 
 #about-us h3 {
