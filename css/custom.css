@@ -203,8 +203,9 @@ button {
 #about-us img {
   border-radius: 50%;
   object-fit: cover;
-  width: 200px; /* Gleiche Größe für die Bilder */
-  height: 200px;
+  width: 100%; /* Bild passt sich an die Breite des Containers an */
+  max-width: 150px; /* Begrenzung der Maximalgröße */
+  height: auto; /* Höhe passt sich proportional an */
 }
 
 #about-us h3 {
