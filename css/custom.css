@@ -187,43 +187,58 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start; /* Elemente oben ausrichten */
+  align-items: flex-start; /* Sorgt dafür, dass die Spalten oben ausgerichtet sind */
 }
 
 #about-us .col-md-3 {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; /* Zentriert die Inhalte horizontal */
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-  flex: 1; /* Stellt sicher, dass alle Spalten die gleiche Breite haben */
-  max-width: 25%; /* Optional: Maximale Breite auf 25% gesetzt, um 4 Spalten zu erreichen */
+  flex: 1;
+  max-width: 23%; /* Passt die Breite an, um Platz für 4 Spalten zu schaffen */
 }
 
 #about-us img {
   border-radius: 50%;
   object-fit: cover;
-  width: 150px; /* Optional: Stelle sicher, dass die Bilder die gleiche Größe haben */
-  height: 150px; /* Gleiche Höhe für alle Bilder */
+  width: 150px; /* Gleiche Größe für die Bilder */
+  height: 150px;
+}
+
+#about-us h3 {
+  margin: 0;
+  padding: 5px 0; /* Optional: Füge hier etwas Padding hinzu */
 }
 
 #about-us h4,
 #about-us h5 {
-  margin-top: 1rem;
+  margin: 0;
   color: #67aa97;
+  padding: 5px 0;
 }
 
-#about-us h3 {
-  margin: 0; /* Entferne die Standardmargen, um eine einheitliche Ausrichtung zu ermöglichen */
+#about-us p {
+  margin: 0;
+  padding-top: 10px;
+  flex-grow: 1; /* Sorgt dafür, dass das <p>-Element den verbleibenden Platz ausfüllt */
+}
+
+#about-us .social-media {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .job-title {
   padding-top: 10px;
 }
 
-#about-us p {
-  margin: 0; /* Entferne Standardmargen */
-  padding-top: 10px; /* Optional: Abstand zwischen den Texten */
+#about-us .col-md-3 .social-media a {
+  display: inline-block;
+  margin-top: auto; /* Stellt sicher, dass das LinkedIn-Icon immer unten ist */
 }
 
 #contact img {
