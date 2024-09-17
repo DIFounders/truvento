@@ -203,8 +203,6 @@ button {
 #about-us img {
   border-radius: 50%;
   object-fit: cover;
-  width: 150px; /* Gleiche Größe für die Bilder */
-  height: 150px;
 }
 
 #about-us h3 {
