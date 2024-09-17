@@ -240,6 +240,7 @@ button {
 #about-us .col-md-3 .social-media a {
   display: inline-block;
   margin-top: auto; /* Stellt sicher, dass das LinkedIn-Icon immer unten ist */
+  padding-top: 10px;
 }
 
 #contact img {
