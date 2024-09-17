@@ -183,9 +183,28 @@ button {
   }
 }
 
+#about-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; /* Elemente oben ausrichten */
+}
+
+#about-us .col-md-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; /* Zentriert die Inhalte horizontal */
+  text-align: center;
+  flex: 1; /* Stellt sicher, dass alle Spalten die gleiche Breite haben */
+  max-width: 25%; /* Optional: Maximale Breite auf 25% gesetzt, um 4 Spalten zu erreichen */
+}
+
 #about-us img {
   border-radius: 50%;
   object-fit: cover;
+  width: 150px; /* Optional: Stelle sicher, dass die Bilder die gleiche Größe haben */
+  height: 150px; /* Gleiche Höhe für alle Bilder */
 }
 
 #about-us h4,
@@ -194,8 +213,17 @@ button {
   color: #67aa97;
 }
 
+#about-us h3 {
+  margin: 0; /* Entferne die Standardmargen, um eine einheitliche Ausrichtung zu ermöglichen */
+}
+
 .job-title {
   padding-top: 10px;
+}
+
+#about-us p {
+  margin: 0; /* Entferne Standardmargen */
+  padding-top: 10px; /* Optional: Abstand zwischen den Texten */
 }
 
 #contact img {
