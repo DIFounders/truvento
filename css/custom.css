@@ -2,11 +2,25 @@
 h2 {
   font-size: 2.8rem !important;
   font-weight: 700;
+  color: #2f356d;
+}
+
+* {
+  font-family: "Nunito", sans-serif; /* Use Nunito for the body text as well */
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+body p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #2f356d !important;
 }
 
 a,
@@ -23,6 +37,7 @@ button {
   padding: 12px 30px !important;
   font-weight: 700;
   transition: 0.3s ease-in-out !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .atlas-cta:hover {
@@ -34,48 +49,48 @@ button {
   width: 100%;
 }
 
-.cta-green {
-  background: #67aa97;
-  color: #00061b;
+.cta-java {
+  color: #fff;
+  background: #18e1d0;
 }
 
-.cta-green:hover {
+.cta-java:hover {
+  color: #2f356d;
+  background: #18e1d0;
+}
+
+.cta-pink {
+  background: #cd3788;
   color: #ffffff;
-  background: #67aa97;
 }
 
-.cta-gold {
-  background: #bb9017;
-  color: #00061b;
-}
-
-.cta-gold:hover {
-  color: #ffffff;
-  background: #bb9017;
+.cta-pink:hover {
+  color: #2f356d;
+  background: #cd3788;
 }
 
 .cta-contact {
   margin-left: 15px;
 }
 
-.cta-blue {
-  background: #00061b;
+.cta-rhino {
+  background: #2f356d;
   color: #ffffff;
 }
 
-.cta-blue:hover {
+.cta-rhino:hover {
   color: #ffffff;
-  background: #00061b;
+  background: #2f356d;
 }
 
 .cta-ghost {
-  border: 2px solid #00061b !important;
+  border: 2px solid #2f356d !important;
   color: #192440;
 }
 
 .cta-ghost:hover {
   color: #ffffff;
-  background: #00061b;
+  background: #2f356d;
 }
 
 #banner {
@@ -91,6 +106,39 @@ button {
   max-width: 250px;
 }
 
+#banner {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 53, 109, 0.8),
+      rgba(24, 225, 208, 0.8)
+    ),
+    url(../img/banner-image-3.png);
+  background-position: center; /* Center the image */
+}
+
+#contact {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 53, 109, 0.8),
+      rgba(24, 225, 208, 0.8)
+    ),
+    url(../img/contact-new2.png);
+  background-position: center; /* Center the image */
+}
+
+#contact p,
+#contact a,
+#contact h1,
+#contact h2,
+#contact h3,
+#contact h4,
+#contact h5 {
+  color: #fff !important;
+}
+
+#contact a:hover {
+  color: #2f356d !important;
+}
 /********** feature (skew background) **********/
 .feature img {
   width: 100%;
@@ -98,19 +146,27 @@ button {
 }
 
 #feature-first {
-  background: linear-gradient(168deg, #ffffff 55%, #67aa97 0);
-  color: #00061b;
+  background: linear-gradient(168deg, #ffffff 55%, transparent 0),
+    /* First gradient: white to transparent */
+      linear-gradient(to right, #cd3788, #18e1d0);
+  color: #2f356d;
 }
 
 #feature-center {
-  background: #67aa97;
-  color: #00061b;
-  padding-top: 0px;
+  background: linear-gradient(to right, #cd3788, #18e1d0);
+}
+
+#feature-center h2,
+#feature-center h1,
+#feature-center h3,
+#feature-center p,
+#feature-last h2,
+#feature-last p {
+  color: #fff !important;
 }
 
 #feature-last {
-  background: #67aa97;
-  color: #00061b;
+  background: linear-gradient(to right, #cd3788, #18e1d0);
 }
 
 /********** price table **********/
@@ -120,7 +176,7 @@ button {
 }
 
 #price-table__premium {
-  background: #00061b;
+  background: #2f356d;
   color: #ffffff;
 }
 
@@ -138,19 +194,19 @@ button {
 }
 
 #contact form {
-  color: #67aa97;
+  color: #18e1d0;
 }
 
 #contact form input,
 #contact form textarea {
   background: transparent;
-  border: 1px solid #67aa97;
+  border: 1px solid #18e1d0;
   color: #ffffff;
 }
 
 /********** copyright **********/
 #copyright {
-  background: #00061b;
+  background: #2f356d;
   padding: 2rem 3rem;
 }
 
@@ -158,7 +214,7 @@ button {
   width: 40px;
   height: 40px;
   border-radius: 99%;
-  background: #00061b;
+  background: #2f356d;
   transition: 0.4s ease;
 }
 
@@ -169,11 +225,11 @@ button {
 }
 
 #social-media a:hover {
-  background: #bb9017;
+  background: #cd3788;
 }
 
 #social-media a:hover i {
-  color: #00061b;
+  color: #2f356d;
 }
 
 /********** RWD **********/
@@ -217,7 +273,7 @@ button {
 #about-us h4,
 #about-us h5 {
   margin: 0;
-  color: #67aa97;
+  color: #18e1d0;
   padding: 5px 0;
 }
 
@@ -257,7 +313,7 @@ button {
 .statistics-number {
   font-size: 5rem;
   font-weight: 1000;
-  color: #00061b;
+  color: #2f356d;
 }
 
 .statistics-text .source {
@@ -265,12 +321,8 @@ button {
   font-size: 1rem;
 }
 
-.brand-gold {
-  color: #bb9017;
-}
-
-#contact a {
-  color: #bb9017;
+.brand-pink {
+  color: #cd3788;
 }
 
 .benefits-icon {
@@ -286,15 +338,20 @@ button {
   transition: 0.4s ease;
   font-size: 4rem;
   line-height: 140px;
-  color: #00061b;
+  color: #fff;
 }
 
-.icon-gold i {
-  background: #bb9017;
+.icon-pink i {
+  background: linear-gradient(to right, #cd3788, #18e1d0);
 }
 
 .icon-cyan i {
-  background: #67aa97;
+  background: linear-gradient(
+    to right,
+    rgba(47, 53, 109, 0.8),
+    rgba(24, 225, 208, 0.8)
+  );
+  color: white;
 }
 
 #copyright a {
