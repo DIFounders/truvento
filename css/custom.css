@@ -90,6 +90,7 @@ button {
   top: 10px;
   background: #2f356d;
   color: #ffffff;
+  z-index: 10;
 }
 
 .btn-language:hover {
@@ -239,6 +240,7 @@ button {
   border-radius: 99%;
   background: #2f356d;
   transition: 0.4s ease;
+  margin-top: 1rem;
 }
 
 #social-media a i {
@@ -286,6 +288,7 @@ button {
   max-width: 150px; /* Begrenzung der Maximalgröße */
   height: auto; /* Höhe passt sich proportional an */
   max-height: 150px;
+  margin-bottom: 1rem;
 }
 
 #about-us h3 {
