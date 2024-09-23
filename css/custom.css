@@ -45,23 +45,6 @@ button {
   transform: translateY(-5px);
 }
 
-.btn-language {
-  border-radius: 22px !important;
-  padding: 12px 30px !important;
-  font-weight: 700;
-  right: 20px;
-  top: 20px;
-  transition: 0.3s ease-in-out !important;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  position: absolute;
-  top: 10px;
-}
-
-.btn-language:hover {
-  text-decoration: none;
-  transform: translateY(-5px);
-}
-
 .atlas-cta-wide {
   width: 100%;
 }
