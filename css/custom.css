@@ -263,6 +263,16 @@ button {
   }
 }
 
+.long-word p {
+  hyphens: auto;
+}
+
+@media (max-width: 400px) {
+  #banner h1 {
+    font-size: 2.8rem;
+  }
+}
+
 #about-us {
   display: flex;
   flex-wrap: wrap;
