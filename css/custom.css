@@ -412,3 +412,91 @@ button {
   font-size: 1.1rem;
   margin-bottom: 2rem;
 }
+
+/* Blue circle with SVG background and hover transition */
+.privacy-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #2f356d; /* Blue color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out !important;
+  position: fixed;
+  left: 20px; /* Adjust as needed */
+  bottom: 20px; /* Adjust as needed */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.termsfeed-com---palette-light .cc-nb-okagree,
+.termsfeed-com---palette-light .cc-nb-reject,
+.termsfeed-com---palette-light .cc-cp-foot-save {
+  color: #fff !important;
+  background-color: #2f356d !important;
+  border-radius: 22px !important;
+  padding: 12px 30px !important;
+  font-weight: 700;
+  transition: 0.3s ease-in-out !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.termsfeed-com---palette-light .cc-nb-okagree:focus,
+.termsfeed-com---palette-light .cc-nb-nb:focus,
+.termsfeed-com---palette-light cc-pc-head-close:focus {
+  box-shadow: 0 0 0 2px transparent !important;
+}
+
+.termsfeed-com---palette-light .cc-nb-changep {
+  background-color: #eceeef;
+  color: #2f356d !important;
+  border-radius: 22px !important;
+  padding: 12px 30px !important;
+  font-weight: 700;
+  transition: 0.3s ease-in-out !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.termsfeed-com---palette-light .cc-pc-head-lang select:focus {
+  box-shadow: 0 0 0 2px transparent !important;
+}
+
+.termsfeed-com---palette-light .cc-pc-head-close:active,
+.termsfeed-com---palette-light .cc-pc-head-close:focus {
+  border: 2px solid transparent !important;
+}
+
+.termsfeed-com---palette-light .cc-cp-foot-byline,
+.termsfeed-com---palette-light .cc-pc-head-lang select,
+.termsfeed-com---palette-light .cc-cp-body-content-entry a,
+.termsfeed-com---palette-light .cc-cp-body-content,
+.termsfeed-com---palette-light .cc-cp-body-tabs-item-link {
+  color: #2f356d !important;
+}
+
+.termsfeed-com---pc-dialog
+  input[type="checkbox"].cc-custom-checkbox:checked
+  + label:before {
+  background: #2f356d !important;
+}
+.termsfeed-com---palette-light .cc-cp-body-tabs-item[active="true"] button {
+  color: #fff !important;
+  background: #2f356d !important;
+}
+
+.termsfeed-com---palette-light .cc-cp-foot-save {
+  opacity: 1 !important;
+}
+
+.termsfeed-com---palette-light .cc-cp-foot {
+  background: #fff !important;
+  border-top-color: #ccc;
+}
+
+.termsfeed-com---palette-light .cc-cp-body-tabs,
+.termsfeed-com---pc-dialog .cc-cp-body-tabs-item {
+  color: #2f356d !important;
+  background: #fff !important;
+}
