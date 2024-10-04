@@ -500,3 +500,7 @@ button {
   color: #2f356d !important;
   background: #fff !important;
 }
+
+#copyright-imprint {
+  z-index: 9999999999;
+}
