@@ -504,3 +504,25 @@ button {
 #copyright-imprint {
   z-index: 9999999999;
 }
+
+.cc-nb-buttons-container button {
+  margin: 7px !important; /* Adjust the value as needed */
+}
+
+.cc-nb-text-urls::before {
+  content: "\A"; /* Inserts a line break */
+  white-space: pre; /* Ensure the line break is rendered */
+  display: block; /* Forces the line break before the span */
+}
+
+.cc-nb-text-urls a {
+  color: #2f356d !important;
+}
+
+.cc-nb-main-container button:focus,
+.cc-nb-main-container a:focus,
+.cc-nb-main-container input:focus,
+.cc-nb-main-container textarea:focus {
+  outline: none !important; /* Remove default focus outline */
+  box-shadow: none !important; /* Remove any box-shadow (if any) */
+}
