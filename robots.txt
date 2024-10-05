@@ -1,5 +1,12 @@
 User-agent: *
+Disallow: /404.html
+Disallow: /data_privacy.html
+Disallow: /datenschutz.html
+Disallow: /impressum.html
+Disallow: /imprint.html
+
 Allow: /index.html
-Allow: /impressum.html
-Allow: /datenschutz.html
-Disallow: /
+Allow: /index_en.html
+
+# Specify the location of your sitemap for better indexing
+Sitemap: https://www.truvento.de/sitemap.xml
